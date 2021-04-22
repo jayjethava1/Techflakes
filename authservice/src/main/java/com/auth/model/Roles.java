@@ -22,7 +22,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
  */
 @JsonIgnoreProperties(value = { "user" })
 @Entity
-@Table(name = "roles", catalog = "users")
+@Table(name = "roles")
 public class Roles implements java.io.Serializable,GrantedAuthority {
 
 	/**
